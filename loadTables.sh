@@ -54,7 +54,7 @@ if [[ -z "$BIGQUERY_TABLE" ]];then
   usage
 fi
 
-if [[ -z "$GCS_PATH" ]];then
+if [[ -z "$GCS_BUCKET_PATH" ]];then
   logm error "GCS_PATH is not set"
   usage
 fi
